@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# SQLite transient journals (keep market_data.db tracked for daily_etl.yml)
+*.db-shm
+*.db-wal
+
+# Node / Misc
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
